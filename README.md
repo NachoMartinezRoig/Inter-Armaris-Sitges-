@@ -1,7 +1,7 @@
 # Inter Armaris · Visor 3D
 
-Versión autónoma del configurador. Incluye la geometría del mueble SmartWOP, materiales y fuentes.
+[Abre el configurador](https://nachomartinezroig.github.io/Inter-Armaris-Sitges-/).
 
-Publicación: en Settings → Pages, selecciona Deploy from a branch, rama gh-pages, carpeta / (root).
+Versión autónoma con el mueble SmartWOP, materiales y fuentes incluidos. Medidas en milímetros, dos sistemas de cajón, acabados por pieza con un máximo de dos materiales de tablero, herrajes independientes y precio estimado en directo.
 
-Para actualizar el visor, sustituye index.html por una nueva compilación autónoma del proyecto.
+El workflow **Deploy static content to Pages** publica esta rama `gh-pages`. Para actualizar la web, comprobar la aplicación fuente y sustituir `index.html` por su nueva compilación autónoma, conservando los workflows y el historial de esta rama.
