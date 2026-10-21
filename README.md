@@ -4,6 +4,12 @@
 
 Visor único del mueble SmartWOP, medidas en milímetros y acabados por pieza. El editor mantiene su tamaño, conserva visibles el precio y las acciones, y permite personalizar los tiradores por separado.
 
+La opción **Melamina**, en Distribución, incorpora el segundo STEP del taller: laterales y traseras de 19 mm, fondos ranurados de 10 mm y los herrajes recibidos. Ambos sistemas incluyen los colgadores CAMAR 807 derecho e izquierdo, colocados con las referencias del plano y mostrados sin tapa. Los cajones abren individualmente y las sujeciones permanecen fijas.
+
+Los tableros del visor se muestran lisos, sin taladros de montaje ni muescas de mecanizado junto a los tiradores, conservando sus dimensiones exteriores y acabados. La preparación se realiza una vez en los modelos ligeros.
+
+El logotipo de cabecera es un único vector con letras trazadas y el símbolo azul alineado; el icono de la pestaña utiliza el mismo símbolo.
+
 Las tarifas iniciales son material × 3, 79 € por cajón LEGRABOX, 59,40 € por juego MOVENTO, 6,80 € por tirador, 30 € de preparación por material y 60 € de unión y sujeción.
 
 Empresa permite guardar borradores por producto y activar versiones independientes. En esta publicación estática el acceso `admin` / `admin` es una demostración local: los datos y las activaciones se conservan solo en este navegador. El servidor compartido se prepara en el proyecto fuente y requiere alojamiento con almacenamiento persistente; GitHub Pages no ejecuta ese servidor.
