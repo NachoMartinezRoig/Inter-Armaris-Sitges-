@@ -3,7 +3,7 @@
 <style>html,body{margin:0;height:100%;background:#f7f6f3;color:#24241f;font:14px system-ui,sans-serif}iframe{border:0;width:100%;height:100%;display:block}#status{position:fixed;inset:0;display:grid;place-content:center;text-align:center;background:#f7f6f3;gap:14px;padding:24px}#status[hidden],#update[hidden]{display:none}button,a{border:0;border-radius:8px;background:#2800ff;color:white;padding:12px 18px;font:inherit;cursor:pointer;text-decoration:none}#update{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);box-shadow:0 2px 18px #0002;z-index:10}h1{font-size:24px;margin:0}p{line-height:1.6;margin:0}</style></head>
 <body><div id="status" role="status"><h1>Inter Armaris</h1><p id="message">Abriendo tu configurador…</p><button id="retry" hidden>Volver a intentar</button></div><iframe id="app" title="Personalizador de muebles Inter Armaris" allow="fullscreen" allowfullscreen hidden></iframe><button id="update" hidden>Nueva versión disponible · Actualizar</button>
 <script>
-const initial={"id":"dc579f8aedf7","builtAt":"2026-10-21T09:08:11.735Z","path":"versiones/dc579f8aedf7/"};
+const initial={"id":"6636ab688ef9","builtAt":"2026-10-21T09:38:43.177Z","path":"versiones/6636ab688ef9/"};
 const base=new URL('../',location.href),frame=document.getElementById('app'),status=document.getElementById('status'),message=document.getElementById('message'),retry=document.getElementById('retry'),update=document.getElementById('update');
 let current=null,pending=null,checking=false;
 function valid(r){return r&&/^[a-f0-9]{12}$/.test(r.id)&&r.path==='versiones/'+r.id+'/'&&typeof r.builtAt==='string'&&Number.isFinite(Date.parse(r.builtAt));}
